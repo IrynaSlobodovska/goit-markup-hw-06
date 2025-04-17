@@ -49,6 +49,82 @@
             </li>
           </ul>
         </address>
+
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobail-menu">
+        <div class="container mobail-menu-container">
+          <butttom class="mobail-menu-close">
+            <svg class="mobail-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </butttom>
+          <nav class="mobal-manu-nav">
+            <ul class="mobail-menu-list">
+              <li class="mobail-menu-item">
+                <a class="mobail-menu-link current" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="mobail-menu-item">
+                <a class="mobail-menu-link" href="">Portfolio</a>
+              </li>
+              <li class="mobail-menu-item">
+                <a class="mobail-menu-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="mobail-menu-adr">
+            <ul class="mobail-list">
+              <li class="mobail-item">
+                <a class="mobail-link current" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="mobail-item">
+                <a class="mobail-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <div class="mobai-menu-conto">
+            <ul class="mobail-menu-contact">
+              <li class="mobail-menu-icons">
+                <a href="" class="mobail-link-icon">
+                  <svg class="mobail-menu-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobail-menu-icons">
+                <a href="" class="mobail-link-icon">
+                  <svg class="mobail-menu-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobail-menu-icons">
+                <a href="" class="mobail-link-icon">
+                  <svg class="mobail-menu-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobail-menu-icons">
+                <a href="" class="mobail-link-icon">
+                  <svg class="mobail-menu-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
     <main>
@@ -59,7 +135,7 @@
         </div>
       </section>
       <section class="page-aside">
-        <div class="container">
+        <div class="container page-aside-container">
           <h2 class="visually-hidden">Features</h2>
           <ul class="page-aside-list">
             <li class="page-aside-block">
@@ -119,6 +195,7 @@
           <ul class="team-list">
             <li class="team-item">
               <img
+                scrcet="./images/portfolio-1.jpg 1x, ./images/portfolio-1-2x.jpg 2x"
                 src="./images/web1.jpg"
                 alt="Mark Guerrero"
                 width="264"
@@ -161,6 +238,7 @@
             </li>
             <li class="team-item">
               <img
+                srcset="./images/web2 1x, ./images/web2-2x.jpg 2x"
                 src="./images/web2.jpg"
                 alt="Tom Ford"
                 width="264"
@@ -203,6 +281,7 @@
             </li>
             <li class="team-item">
               <img
+                srcset="./images/web3 1x, ./images/web3-2x.jpg 2x"
                 src="./images/web3.jpg"
                 alt="Camila Garcia"
                 width="264"
@@ -245,6 +324,7 @@
             </li>
             <li class="team-item">
               <img
+                srcset="./images/web4.jpg 1x, ./images/web4-2x.jpg 2x"
                 src="./images/web4.jpg"
                 alt="Daniel Wilson"
                 width="264"
@@ -295,6 +375,10 @@
             <li class="portfolio-item">
               <div class="portfolio-img-over">
                 <img
+                  srcset="
+                    ./images/portfolio-1.jpg    1x,
+                    ./images/portfolio-1-2x.jpg 2x
+                  "
                   src="./images/portfolio-1.jpg"
                   alt="Banking App"
                   width="360"
@@ -316,6 +400,10 @@
             <li class="portfolio-item">
               <div class="portfolio-img-over">
                 <img
+                  srcset="
+                    ./images/portfolio-2.jpg    1x,
+                    ./images/portfolio-2-2x.jpg 2x
+                  "
                   src="./images/portfolio-2.jpg"
                   alt="Cashless Payment"
                   width="360"
@@ -337,6 +425,10 @@
             <li class="portfolio-item">
               <div class="portfolio-img-over">
                 <img
+                  srcset="
+                    ./images/portfolio-3.jpg    1x,
+                    ./images/portfolio-3-2x.jpg 2x
+                  "
                   src="./images/portfolio-3.jpg"
                   alt="Meditation App"
                   width="360"
@@ -358,6 +450,10 @@
             <li class="portfolio-item">
               <div class="portfolio-img-over">
                 <img
+                  srcset="
+                    ./images/portfolio-4.jpg    1x,
+                    ./images/portfolio-4-2x.jpg 2x
+                  "
                   src="./images/portfolio-4.jpg"
                   alt="Taxi Service"
                   width="360"
@@ -379,6 +475,10 @@
             <li class="portfolio-item">
               <div class="portfolio-img-over">
                 <img
+                  srcset="
+                    ./images/portfolio-5.jpg    1x,
+                    ./images/portfolio-5-2x.jpg 2x
+                  "
                   src="./images/portfolio-5.jpg"
                   alt="Screen Illustrations"
                   width="360"
@@ -400,6 +500,10 @@
             <li class="portfolio-item">
               <div class="portfolio-img-over">
                 <img
+                  srcset="
+                    ./images/portfolio-6.jpg    1x,
+                    ./images/portfolio-6-2x.jpg 2x
+                  "
                   src="./images/portfolio-6.jpg"
                   alt="Online Courses"
                   width="360"
@@ -487,7 +591,7 @@
       </div>
     </footer>
 
-    <div class="backdrob is-open">
+    <!-- <div class="backdrob is-open">
       <div class="modal">
         <button type="button" class="modal-icon">
           <svg class="modal-icon-l" width="8" height="8">
@@ -574,6 +678,6 @@
           <button type="submit" class="backdrob-btn">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>
