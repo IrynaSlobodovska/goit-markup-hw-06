@@ -438,7 +438,7 @@ button {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/dark-bg-2x.jpg);
+        url(../images/dark-bg-tab-2x.jpg);
     }
   }
 
@@ -804,6 +804,13 @@ button {
 }
 
 /* page-footer */
+.footer-logo-conto {
+  margin-bottom: 72px;
+}
+
+.footer-social {
+  margin-bottom: 72px;
+}
 
 .page-footer {
   background-color: #2e2f42;
@@ -843,10 +850,6 @@ button {
   margin-bottom: 16px;
   display: flex;
   justify-content: center;
-}
-
-.foot-box {
-  margin-bottom: 72px;
 }
 
 .footer-link-icon {
@@ -926,9 +929,6 @@ input::placeholder {
 }
 
 @media screen and (min-width: 768px) {
-  .foot-box {
-    margin-bottom: 0;
-  }
   .footer-container {
     width: 768px;
     display: flex;
@@ -936,6 +936,10 @@ input::placeholder {
     justify-content: flex-start;
     padding-left: 108px;
     gap: 72px 24px;
+  }
+
+  .footer-logo-conto {
+    margin-bottom: 0;
   }
 
   .footer-logo {
@@ -952,6 +956,7 @@ input::placeholder {
 
   .footer-social {
     margin-left: 24px;
+    margin-bottom: 0;
   }
 
   .footer-social-text {
